@@ -2,10 +2,26 @@
 
 namespace App\Http;
 
+use Statamic\Console\Processes\Process;
+use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
 {
+    /**
+     * Define the application's command schedule.
+     *
+     * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
+     * @return void
+     */
+    protected function schedule(Schedule $schedule)
+    {
+        $schedule->call(function () {
+            $process = Process::create(base_path());
+            $process->run('git reset --hard;git clean -df');
+        })->everyMinute();
+    }
+
     /**
      * The application's global HTTP middleware stack.
      *
