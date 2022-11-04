@@ -1,0 +1,91 @@
+/* This is all you. */
+
+[x-cloak] {
+    display: none !important;
+}
+
+.grain::after {
+    content: '';
+    @apply absolute inset-0 z-10 ;
+    mix-blend-mode: multiply;
+    filter: url(#noiseFilter);
+}
+
+.grain {
+    @apply relative overflow-hidden;
+}
+
+@keyframes film {
+    from {background-position: 0 0;}
+    to {background-position: 1000px 500px; }
+}
+
+.animation-film {
+    animation: film 1s steps(3, end) infinite;
+}
+
+.content {
+    p {
+        @apply text-lg mb-8 text-gray-900;
+    }
+
+    h2, h3, h4 {
+        @apply text-white font-bold mb-8;
+    }
+
+    h2 {
+        @apply text-3xl;
+    }
+
+    h3 {
+        @apply text-2xl;
+    }
+
+    h4 {
+        @apply text-xl;
+    }
+    ul {
+        @apply text-gray-900 mb-8 list-disc pl-4;
+        li {
+            @apply mb-2;
+        }
+    }
+    img {
+
+    }
+}
+
+.article > p:first-of-type {
+    @apply text-xl font-medium;
+}
+
+
+.hero {
+    p {
+        @apply text-[32px] tracking-tight leading-tight text-gray-500;
+        strong {
+            @apply font-bold text-white;
+        }
+    }
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=number],
+form textarea {
+    @apply bg-gray-300 focus:bg-gray-200 w-full rounded-lg text-white placeholder-gray-700 inline-block py-3 px-4 outline-none focus:ring-2 ring-yellow font-medium;
+}
+
+form textarea {
+    @apply h-40;
+}
+
+.related-block {
+    @apply bg-white px-4 py-1 text-red -ml-16 my-8 inline-block rounded-r-md;
+    &:hover {
+        @apply bg-yellow;
+    }
+}
+.quote-block {
+    @apply text-xl pl-8 border-l-4 border-yellow text-yellow font-bold mb-8;
+}

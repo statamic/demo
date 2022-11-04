@@ -1,0 +1,18 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: tagline
+        field:
+          input_type: text
+          character_limit: 140
+          antlers: false
+          display: Tagline
+          type: text
+          icon: text
+          instructions: 'Text shown above the copyright'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
