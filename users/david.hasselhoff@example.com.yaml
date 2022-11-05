@@ -1,0 +1,6 @@
+name: 'David Hasselhoff'
+roles:
+  - demo_admin
+avatar: david.jpg
+id: 14f7ad69-9fb8-4444-8a7a-fb626fc2a194
+password_hash: $2y$10$mcW1yvrglCQXs2AljIbQ6On79xybQNqEUl5jR41tLDbj6GxIx2onW

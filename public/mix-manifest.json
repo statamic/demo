@@ -1,4 +1,5 @@
 {
-    "/js/site.js": "/js/site.js",
-    "/css/tailwind.css": "/css/tailwind.css"
+    "/js/site.js": "/js/site.js?id=b1209ee077a2a35c987091be58e4b154",
+    "/vendor/app/js/cp.js": "/vendor/app/js/cp.js?id=7851590300e8113e77366ed802e29b61",
+    "/css/tailwind.css": "/css/tailwind.css?id=776f108354cf70538e63452f8675bf6b"
 }

@@ -39,7 +39,7 @@ mix.browserSync({
  |
  */
 
-// mix.js('resources/js/cp.js', 'public/vendor/app/js')
+mix.js('resources/js/cp.js', 'public/vendor/app/js')
 //    .postCss('resources/css/cp.css', 'public/vendor/app/css', [
 //     require('postcss-import'),
 //     require('tailwindcss/nesting'),
