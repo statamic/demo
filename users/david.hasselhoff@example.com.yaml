@@ -4,3 +4,10 @@ roles:
 avatar: david.jpg
 id: 14f7ad69-9fb8-4444-8a7a-fb626fc2a194
 password_hash: $2y$10$Q6DJ8mB9KyjFXOuCrjbRB.Ojk9TBaHGT596bGDiTVxEtgYWbVPxhS
+preferences:
+  forms:
+    contact:
+      columns:
+        - datestamp
+        - name
+        - email

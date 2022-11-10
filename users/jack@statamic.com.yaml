@@ -16,5 +16,3 @@ preferences:
         - datestamp
         - name
         - email
-        - note
-        - resume
