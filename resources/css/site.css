@@ -44,12 +44,21 @@
     h4 {
         @apply text-xl;
     }
+
     ul {
         @apply text-gray-900 mb-8 list-disc pl-4;
         li {
             @apply mb-2;
         }
     }
+
+    ol {
+        @apply text-gray-900 mb-8 list-decimal pl-4;
+        li {
+            @apply mb-2;
+        }
+    }
+
     img {
 
     }

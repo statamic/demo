@@ -39,6 +39,21 @@ return [
 
     'widgets' => [
         'getting_started',
+        [
+            'title' => 'Recently Published Articles',
+            'type' => 'collection',
+            'collection' => 'news',
+            'limit' => 5,
+            'width' => 50,
+        ],
+        [
+            'title' => 'Contact Form Submissions',
+            'type' => 'form',
+            'form' => 'contact',
+            'fields' => ['name'],
+            'limit' => 5,
+            'width' => 50
+        ],
     ],
 
     /*
