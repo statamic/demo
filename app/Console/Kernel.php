@@ -2,7 +2,7 @@
 
 namespace App\Console;
 
-use Statamic\Facades\Stache;
+use Illuminate\Support\Facades\Artisan;
 use Statamic\Console\Processes\Process;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
@@ -20,7 +20,7 @@ class Kernel extends ConsoleKernel
         $schedule->call(function () {
             $process = Process::create(base_path());
             $process->run('git reset --hard;git clean -df');
-            Stache::clear();
+            Artisan::call('cache:clear');
         // })->everyThirtyMinutes()->environments(['production']);
         })->everyMinute();
     }
