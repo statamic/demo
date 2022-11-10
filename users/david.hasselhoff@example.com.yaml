@@ -11,3 +11,9 @@ preferences:
         - datestamp
         - name
         - email
+  collections:
+    news:
+      columns:
+        - title
+        - author
+        - date
