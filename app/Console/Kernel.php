@@ -21,7 +21,8 @@ class Kernel extends ConsoleKernel
             $process = Process::create(base_path());
             $process->run('git reset --hard;git clean -df');
             Stache::clear();
-        })->everyThirtyMinutes()->environments(['production']);
+        // })->everyThirtyMinutes()->environments(['production']);
+        })->everyMinute();
     }
 
     /**
