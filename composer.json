@@ -18,6 +18,7 @@
         "spatie/fork": "^1.1",
         "statamic/cms": "3.3.*",
         "statamic/quotefetcher": "dev-main",
+        "statamic/seo-pro": "^3.1",
         "statamic/ssg": "^1.2"
     },
     "require-dev": {

@@ -7,12 +7,12 @@ preferences:
   assets:
     assets:
       mode: grid
-  collections:
-    pages:
-      after_save: create_another
   forms:
     contact:
       columns:
         - datestamp
         - name
         - email
+  collections:
+    pages:
+      after_save: continue_editing

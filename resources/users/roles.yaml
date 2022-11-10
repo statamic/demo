@@ -47,3 +47,8 @@ demo_admin:
     - 'access phpinfo utility'
     - 'access search utility'
     - 'access email utility'
+    - 'view seo reports'
+    - 'delete seo reports'
+    - 'edit seo site defaults'
+    - 'edit seo section defaults'
+    - 'view graphql'
