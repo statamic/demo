@@ -38,9 +38,10 @@ return [
     */
 
     'widgets' => [
+        'welcome',
         'getting_started',
         [
-            'title' => 'Recently Published Articles',
+            'title' => 'Latest Articles',
             'type' => 'collection',
             'collection' => 'news',
             'limit' => 5,
