@@ -7,7 +7,7 @@ subtitle: '**With the latest in Flux Capacitor™ technology**, our time machine
 teaser: 'Ever gone 88 mph in a Delorean, buddy?'
 show_lightning_bolts: true
 updated_by: 86c56b85-8c8a-4d59-a3f2-b1a063d0ebbf
-updated_at: 1668109375
+updated_at: 1668117256
 panels:
   -
     id: tgQVdCu7
@@ -31,5 +31,6 @@ panels:
     type: new_set
     enabled: true
 seo:
-  title: 'Rent your very own time machine'
+  title: '@seo:main_heading'
+main_heading: 'Rent your very own time machine'
 ---

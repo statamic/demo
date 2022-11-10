@@ -4,12 +4,18 @@ sections:
     display: Main
     fields:
       -
-        handle: title
+        handle: main_heading
         field:
+          input_type: text
+          antlers: false
+          display: 'Main Heading'
           type: text
-          required: true
-          validate:
-            - required
+          icon: text
+          instructions: 'The page''s H1'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: subtitle
         field:
@@ -151,10 +157,30 @@ sections:
     display: Sidebar
     fields:
       -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
         handle: slug
         field:
           type: slug
           localizable: true
+      -
+        handle: template
+        field:
+          hide_partials: true
+          default: home
+          blueprint: false
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: parent
         field:
@@ -164,3 +190,12 @@ sections:
           max_items: 1
           listable: false
           localizable: true
+  SEO:
+    display: SEO
+    fields:
+      -
+        handle: seo
+        field:
+          type: seo_pro
+          listable: false
+          display: SEO

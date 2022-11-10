@@ -1,5 +1,5 @@
 <div class="card p-2 content timer" x-data="timer(when.getTime())" x-init="init()">
-    👋 &nbsp; Welcome to the Statamic Demo! This site will reset all changes made to it in:
+    👋 &nbsp; Welcome to the Statamic Demo site! Go bananas with it because it will reset in:
     <div class="inline-block px-sm bg-yellow">
         <span x-text="time().minutes"></span>:<span x-text="time().seconds"></span>
     </div>
