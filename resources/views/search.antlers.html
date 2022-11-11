@@ -10,9 +10,6 @@
             <h2><a class="inline-block text-yellow hover:underline text-3xl font-bold" href="{{ url }}">{{ title }}</a></h2>
             <div class="px-3 py-1 text-gray-100 font-bold bg-blue rounded-full text-sm">{{ collection }}</div>
         </div>
-        <div class="mt-2 font-regular">
-            {{ (article_content ?? subtitle ?? teaser ?? content) | safe_truncate(140) }}...
-        </div>
     </div>
     {{ /search:results }}
 </section>
