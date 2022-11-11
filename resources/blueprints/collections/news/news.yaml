@@ -10,18 +10,6 @@ sections:
           validate:
             - required
       -
-        handle: author
-        field:
-          max_items: 1
-          mode: select
-          display: Author
-          type: users
-          icon: users
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
         handle: featured_image
         field:
           mode: grid
@@ -157,6 +145,18 @@ sections:
                     instructions_position: above
                     visibility: visible
                     always_save: false
+      -
+        handle: author
+        field:
+          max_items: 1
+          mode: select
+          display: Author
+          type: users
+          icon: users
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
   sidebar:
     display: Sidebar
     fields:
@@ -180,4 +180,13 @@ sections:
             - tags
           display: Tags
           mode: select
+  SEO:
+    display: SEO
+    fields:
+      -
+        handle: seo
+        field:
+          type: seo_pro
+          listable: false
+          display: SEO
 title: 'News Article'
