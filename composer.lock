@@ -5453,16 +5453,16 @@
         },
         {
             "name": "statamic/seo-pro",
-            "version": "5.2.1",
+            "version": "5.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/seo-pro.git",
-                "reference": "9fbac0a90a51e35feaeb63635dfc1ad0fb1329e4"
+                "reference": "5e5a06b4e08e96c525a3d85baed9f925fa61c506"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/seo-pro/zipball/9fbac0a90a51e35feaeb63635dfc1ad0fb1329e4",
-                "reference": "9fbac0a90a51e35feaeb63635dfc1ad0fb1329e4",
+                "url": "https://api.github.com/repos/statamic/seo-pro/zipball/5e5a06b4e08e96c525a3d85baed9f925fa61c506",
+                "reference": "5e5a06b4e08e96c525a3d85baed9f925fa61c506",
                 "shasum": ""
             },
             "require": {
@@ -5492,9 +5492,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/statamic/seo-pro/issues",
-                "source": "https://github.com/statamic/seo-pro/tree/5.2.1"
+                "source": "https://github.com/statamic/seo-pro/tree/5.2.2"
             },
-            "time": "2023-07-06T18:03:51+00:00"
+            "time": "2023-08-04T20:01:15+00:00"
         },
         {
             "name": "statamic/stringy",
