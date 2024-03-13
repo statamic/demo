@@ -46,3 +46,5 @@ demo_admin:
     - 'edit seo site defaults'
     - 'edit seo section defaults'
     - 'view graphql'
+    - 'configure form fields'
+    - 'access default site'
