@@ -27,11 +27,15 @@ jobs:
       - name: Generate key
         run: php artisan key:generate
 
+      - name: Get Current Statamic Version
+        id: current-statamic-version
+        run: echo "::set-output name=statamic_version::$(composer show statamic/cms | grep 'versions' | grep -o -E '\*\ .+' | cut -d' ' -f2 | cut -d',' -f1;)"
+
       - name: Update Dependencies
         run: composer update -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
 
-      - name: Get Statamic Version
-        id: statamic-version
+      - name: Get Updated Statamic Version
+        id: updated-statamic-version
         run: echo "::set-output name=statamic_version::$(composer show statamic/cms | grep 'versions' | grep -o -E '\*\ .+' | cut -d' ' -f2 | cut -d',' -f1;)"
 
       - name: Verify Changed files
@@ -44,12 +48,12 @@ jobs:
              public/vendor
 
       - name: Open a Pull Request
-        if: steps.verify-changed-files.outputs.files_changed == 'true'
+        if: steps.verify-changed-files.outputs.files_changed == 'true' && steps.current-statamic-version.outputs.statamic_version != steps.updated-statamic-version.outputs.statamic_version
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Statamic ${{ steps.statamic-version.outputs.statamic_version }}"
-          title: "Statamic ${{ steps.statamic-version.outputs.statamic_version }}"
-          body: "This pull request updates this site to [Statamic ${{ steps.statamic-version.outputs.statamic_version }}](https://github.com/statamic/cms/releases/${{ steps.statamic-version.outputs.statamic_version }})."
-          branch: "statamic-${{ steps.statamic-version.outputs.statamic_version }}"
+          commit-message: "Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}"
+          title: "Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}"
+          body: "This pull request updates this site to [Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}](https://github.com/statamic/cms/releases/${{ steps.updated-statamic-version.outputs.statamic_version }})."
+          branch: "statamic-${{ steps.updated-statamic-version.outputs.statamic_version }}"
           base: main
