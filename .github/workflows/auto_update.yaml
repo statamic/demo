@@ -1,0 +1,59 @@
+name: Auto Update
+
+on:
+  schedule:
+    - cron: '0 9 * * *' # Every day at 9am
+  workflow_dispatch:
+
+jobs:
+  auto_update:
+    runs-on: ubuntu-latest
+    name: Auto Update
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.3
+
+      - name: Copy .env
+        run: php -r "file_exists('.env') || copy('.env.example', '.env');"
+
+      - name: Install Dependencies
+        run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+
+      - name: Generate key
+        run: php artisan key:generate
+
+      - name: Get Current Statamic Version
+        id: current-statamic-version
+        run: echo "::set-output name=statamic_version::$(composer show statamic/cms | grep 'versions' | grep -o -E '\*\ .+' | cut -d' ' -f2 | cut -d',' -f1;)"
+
+      - name: Update Dependencies
+        run: composer update -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+
+      - name: Get Updated Statamic Version
+        id: updated-statamic-version
+        run: echo "::set-output name=statamic_version::$(composer show statamic/cms | grep 'versions' | grep -o -E '\*\ .+' | cut -d' ' -f2 | cut -d',' -f1;)"
+
+      - name: Verify Changed files
+        uses: tj-actions/verify-changed-files@v20
+        id: verify-changed-files
+        with:
+          files: |
+             composer.json
+             composer.lock
+             public/vendor
+
+      - name: Open a Pull Request
+        if: steps.verify-changed-files.outputs.files_changed == 'true' && steps.current-statamic-version.outputs.statamic_version != steps.updated-statamic-version.outputs.statamic_version
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}"
+          title: "Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}"
+          body: "This pull request updates this site to [Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}](https://github.com/statamic/cms/releases/${{ steps.updated-statamic-version.outputs.statamic_version }})."
+          branch: "auto-update-statamic"
+          base: main
