@@ -15,7 +15,7 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.7",
         "spatie/fork": "^1.1",
-        "statamic/cms": "5.6.0",
+        "statamic/cms": "^5.0",
         "statamic/quotefetcher": "dev-main",
         "statamic/seo-pro": "^6.0"
     },
