@@ -54,6 +54,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}"
           title: "Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}"
-          body: "This pull request updates this site to [Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}](https://github.com/statamic/cms/releases/${{ steps.updated-statamic-version.outputs.statamic_version }})."
+          body: "This pull request updates this site to [Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}](https://github.com/statamic/cms/releases/${{ steps.updated-statamic-version.outputs.statamic_version }}) as well as any additional dependencies."
           branch: "auto-update-statamic"
           base: main
