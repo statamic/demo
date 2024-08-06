@@ -7,7 +7,7 @@
     {{ search:results }}
     <div class="py-4">
         <div class="flex items-center justify-between">
-            <h2><a class="inline-block text-yellow hover:underline text-3xl font-bold" href="{{ url }}">{{ title }}</a></h2>
+            <h2><a class="inline-block text-yellow hover:underline text-3xl font-bold" href="{{ url }}">{{ title | sanitize }}</a></h2>
             <div class="px-3 py-1 text-gray-100 font-bold bg-blue rounded-full text-sm">{{ collection }}</div>
         </div>
     </div>
