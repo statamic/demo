@@ -4018,16 +4018,16 @@
         },
         {
             "name": "scrivo/highlight.php",
-            "version": "v9.18.1.9",
+            "version": "v9.18.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scrivo/highlight.php.git",
-                "reference": "d45585504777e6194a91dffc7270ca39833787f8"
+                "reference": "850f4b44697a2552e892ffe71490ba2733c2fc6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/d45585504777e6194a91dffc7270ca39833787f8",
-                "reference": "d45585504777e6194a91dffc7270ca39833787f8",
+                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/850f4b44697a2552e892ffe71490ba2733c2fc6e",
+                "reference": "850f4b44697a2552e892ffe71490ba2733c2fc6e",
                 "shasum": ""
             },
             "require": {
@@ -4037,8 +4037,8 @@
             "require-dev": {
                 "phpunit/phpunit": "^4.8|^5.7",
                 "sabberworm/php-css-parser": "^8.3",
-                "symfony/finder": "^2.8|^3.4",
-                "symfony/var-dumper": "^2.8|^3.4"
+                "symfony/finder": "^2.8|^3.4|^5.4",
+                "symfony/var-dumper": "^2.8|^3.4|^5.4"
             },
             "suggest": {
                 "ext-mbstring": "Allows highlighting code with unicode characters and supports language with unicode keywords"
@@ -4092,7 +4092,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-12-03T06:45:28+00:00"
+            "time": "2022-12-17T21:53:22+00:00"
         },
         {
             "name": "spatie/backtrace",
@@ -4512,19 +4512,20 @@
         },
         {
             "name": "spatie/shiki-php",
-            "version": "1.3.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/shiki-php.git",
-                "reference": "34fe61405b405c735c82a9c56feffd3f7c5544ff"
+                "reference": "b4bd54222c40b44800aabce0a4382e0c463b5901"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/shiki-php/zipball/34fe61405b405c735c82a9c56feffd3f7c5544ff",
-                "reference": "34fe61405b405c735c82a9c56feffd3f7c5544ff",
+                "url": "https://api.github.com/repos/spatie/shiki-php/zipball/b4bd54222c40b44800aabce0a4382e0c463b5901",
+                "reference": "b4bd54222c40b44800aabce0a4382e0c463b5901",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
@@ -4563,7 +4564,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/shiki-php/tree/1.3.0"
+                "source": "https://github.com/spatie/shiki-php/tree/2.0.0"
             },
             "funding": [
                 {
@@ -4571,20 +4572,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-01T11:28:41+00:00"
+            "time": "2024-02-19T09:00:59+00:00"
         },
         {
             "name": "statamic/cms",
-            "version": "v5.20.0",
+            "version": "v5.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "e2730d9c3ce83238b8021dd5eff18887a0968a2b"
+                "reference": "e21385da92d14bc8031191fc7da9e5563257e5cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/e2730d9c3ce83238b8021dd5eff18887a0968a2b",
-                "reference": "e2730d9c3ce83238b8021dd5eff18887a0968a2b",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/e21385da92d14bc8031191fc7da9e5563257e5cf",
+                "reference": "e21385da92d14bc8031191fc7da9e5563257e5cf",
                 "shasum": ""
             },
             "require": {
@@ -4610,7 +4611,7 @@
                 "symfony/lock": "^6.4",
                 "symfony/var-exporter": "^6.0",
                 "symfony/yaml": "^6.0 || ^7.0",
-                "ueberdosis/tiptap-php": "^1.1",
+                "ueberdosis/tiptap-php": "^1.4",
                 "voku/portable-ascii": "^2.0",
                 "wilderborn/partyline": "^1.0"
             },
@@ -4666,7 +4667,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.20.0"
+                "source": "https://github.com/statamic/cms/tree/v5.21.0"
             },
             "funding": [
                 {
@@ -4674,7 +4675,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-08T19:25:14+00:00"
+            "time": "2024-08-13T18:29:07+00:00"
         },
         {
             "name": "statamic/quotefetcher",
@@ -7466,22 +7467,22 @@
         },
         {
             "name": "ueberdosis/tiptap-php",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ueberdosis/tiptap-php.git",
-                "reference": "1d4be936f81b47514fd46ae506e74bc57cd26eef"
+                "reference": "640667176da4cdfaa84c32093171e0674c3c807f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ueberdosis/tiptap-php/zipball/1d4be936f81b47514fd46ae506e74bc57cd26eef",
-                "reference": "1d4be936f81b47514fd46ae506e74bc57cd26eef",
+                "url": "https://api.github.com/repos/ueberdosis/tiptap-php/zipball/640667176da4cdfaa84c32093171e0674c3c807f",
+                "reference": "640667176da4cdfaa84c32093171e0674c3c807f",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4|^8.0",
-                "scrivo/highlight.php": "v9.18.1.9",
-                "spatie/shiki-php": "^1.3"
+                "scrivo/highlight.php": "^9.18",
+                "spatie/shiki-php": "^2.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.5",
@@ -7515,7 +7516,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ueberdosis/tiptap-php/issues",
-                "source": "https://github.com/ueberdosis/tiptap-php/tree/1.3.0"
+                "source": "https://github.com/ueberdosis/tiptap-php/tree/1.4.0"
             },
             "funding": [
                 {
@@ -7531,7 +7532,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-06-25T19:44:51+00:00"
+            "time": "2024-08-12T08:25:45+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -8953,16 +8954,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.5.29",
+            "version": "10.5.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "8e9e80872b4e8064401788ee8a32d40b4455318f"
+                "reference": "b15524febac0153876b4ba9aab3326c2ee94c897"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8e9e80872b4e8064401788ee8a32d40b4455318f",
-                "reference": "8e9e80872b4e8064401788ee8a32d40b4455318f",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b15524febac0153876b4ba9aab3326c2ee94c897",
+                "reference": "b15524febac0153876b4ba9aab3326c2ee94c897",
                 "shasum": ""
             },
             "require": {
@@ -8983,7 +8984,7 @@
                 "phpunit/php-timer": "^6.0.0",
                 "sebastian/cli-parser": "^2.0.1",
                 "sebastian/code-unit": "^2.0.0",
-                "sebastian/comparator": "^5.0.1",
+                "sebastian/comparator": "^5.0.2",
                 "sebastian/diff": "^5.1.1",
                 "sebastian/environment": "^6.1.0",
                 "sebastian/exporter": "^5.1.2",
@@ -9034,7 +9035,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.29"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5.30"
             },
             "funding": [
                 {
@@ -9050,7 +9051,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-30T11:08:00+00:00"
+            "time": "2024-08-13T06:09:37+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -9222,16 +9223,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "5.0.1",
+            "version": "5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "2db5010a484d53ebf536087a70b4a5423c102372"
+                "reference": "2d3e04c3b4c1e84a5e7382221ad8883c8fbc4f53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2db5010a484d53ebf536087a70b4a5423c102372",
-                "reference": "2db5010a484d53ebf536087a70b4a5423c102372",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2d3e04c3b4c1e84a5e7382221ad8883c8fbc4f53",
+                "reference": "2d3e04c3b4c1e84a5e7382221ad8883c8fbc4f53",
                 "shasum": ""
             },
             "require": {
@@ -9242,7 +9243,7 @@
                 "sebastian/exporter": "^5.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^10.3"
+                "phpunit/phpunit": "^10.4"
             },
             "type": "library",
             "extra": {
@@ -9287,7 +9288,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/comparator/issues",
                 "security": "https://github.com/sebastianbergmann/comparator/security/policy",
-                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.1"
+                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.2"
             },
             "funding": [
                 {
@@ -9295,7 +9296,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-14T13:18:12+00:00"
+            "time": "2024-08-12T06:03:08+00:00"
         },
         {
             "name": "sebastian/complexity",
