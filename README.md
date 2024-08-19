@@ -1,24 +1,37 @@
 <p align="center"><img src="https://statamic.com/assets/branding/Statamic-Logo+Wordmark-Rad.svg" width="400" alt="Statamic Logo" /></p>
 
-## About Statamic 3
+## Statamic Demo
 
-Statamic 3 is the flat-first, Laravel + Git powered CMS designed for building beautiful, easy to manage websites.
+This repository contains the code for the Statamic Demo site, available at [demo.statamic.com](https://demo.statamic.com).
 
-> **Note:** This repository contains the code for the Statamic application. To contribute to the core package, visit the [Statamic core package repository][cms-repo].
+## Local Development
 
+If you want to work on this project on your local machine, you may follow the instructions below. These instructions assume you are serving the site using [Laravel Valet](https://laravel.com/docs/valet) out of your `~/Sites` directory:
 
-## Learning Statamic
+1. Fork this repository
+2. Open your terminal and cd to your `~/Sites` folder
+3. Clone your fork into the `~/Sites/docs` folder, by running the following command with your username placed into the {username} slot:
+    git clone git@github.com:{username}/docs statamic-docs
+4. CD into the new directory you just created.
+5. Run the following commands:
+  ```
+  composer install
+  npm install
+  npm run dev
+  cp .env.example .env
+  php artisan key:generate
+  ```
 
-Statamic 3 has extensive [documentation][docs]. We dedicate a significant amount of time and energy every day to improving them, so if something is unclear, feel free to open issues for anything you find confusing or incomplete. We are happy to consider anything you feel will make the docs and CMS better.
+## Providing Feedback
 
-## Support
-
-We provide official developer support on [Statamic 3 Pro](https://statamic.com/pricing) projects. Community-driven support is available on the [forum](https://statamic.com/forum) and in [Discord][discord].
+We love it when people provide thoughtful feedback! Feel free to open issues on for any content you find confusing or incomplete. We are happy to consider anything you feel will make the docs and CMS better.
 
 
 ## Contributing
 
-Thank you for considering contributing to Statamic! We simply ask that you review the [contribution guide][contribution] before you open issues or send pull requests.
+Thank you for considering contributing to Statamic! Every page in the [docs site](https://statamic.dev) has a link at the bottom that will take you right to the exact content file that renders the page. Click the edit button and submit those PRs!
+
+**We simply ask that you please review the [contribution guide][contribution] before you send pull requests.**
 
 
 ## Code of Conduct
@@ -29,12 +42,14 @@ In order to ensure that the Statamic community is welcoming to all and generally
 ## Important Links
 
 - [Statamic Main Site](https://statamic.com)
-- [Statamic 3 Documentation][docs]
-- [Statamic 3 Core Package Repo][cms-repo]
-- [Statamic 3 Migrator](https://github.com/statamic/migrator)
+- [Statamic Documentation][docs]
+- [Statamic CMS Repo][cms-repo] (that we maintain)
+- [Statamic Application Repo][app-repo] (that you clone)
+- [Statamic Migrator](https://github.com/statamic/migrator)
 - [Statamic Discord][discord]
 
 [docs]: https://statamic.dev/
 [discord]: https://statamic.com/discord
 [contribution]: https://github.com/statamic/cms/blob/master/CONTRIBUTING.md
+[app-repo]: https://github.com/statamic/statamic
 [cms-repo]: https://github.com/statamic/cms
