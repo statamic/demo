@@ -5,7 +5,7 @@
     </a>
     <div class="px-6 py-8 flex flex-col justify-between flex-1">
         <h3 class="font-bold text-2xl text-white">
-            <a href="{{ url }}" class="transition hover:text-yellow">{{ title }}</a>
+            <a href="{{ url }}" class="transition hover:text-yellow">{{ title | sanitize }}</a>
         </h3>
         <div class="flex items-end justify-between">
             <div>
@@ -14,7 +14,7 @@
             </div>
             {{ if ! hide_tag }}
                 {{ tags limit="1" }}
-                    <a href="{{ url }}" class="px-3 py-1 text-gray-100 font-bold bg-yellow transition hover:bg-orange rounded-full text-sm">{{ title }}</a>
+                    <a href="{{ url }}" class="px-3 py-1 text-gray-100 font-bold bg-yellow transition hover:bg-orange rounded-full text-sm">{{ title | sanitize }}</a>
                 {{ /tags }}
             {{ /if }}
         </div>

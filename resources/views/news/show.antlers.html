@@ -2,10 +2,10 @@
     <header class="max-w-3xl mx-auto">
         {{ if tags }}
             {{ tags }}
-                <a href="{{ url }}" class="px-3 py-1 text-gray-100 font-bold bg-yellow transition hover:bg-orange rounded-full inline-block mb-8">{{ title | lowercase }}</a>
+                <a href="{{ url }}" class="px-3 py-1 text-gray-100 font-bold bg-yellow transition hover:bg-orange rounded-full inline-block mb-8">{{ title | lowercase | sanitize }}</a>
             {{ /tags }}
         {{ /if }}
-        <h1 class="text-5xl md:text-6xl lg:text-7xl tracking-tight text-white font-bold">{{ title }}</h1>
+        <h1 class="text-5xl md:text-6xl lg:text-7xl tracking-tight text-white font-bold">{{ title | sanitize }}</h1>
         <div class="flex items-center mt-12">
             {{ if author }}
                 <img class="rounded-full h-16 w-16" src="{{ author:avatar }}" alt="{{ author:avatar:alt }}">
