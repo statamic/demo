@@ -1409,16 +1409,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.28.1",
+            "version": "v11.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3ef5c8a85b4c598d5ffaf98afd72f6a5d6a0be2c"
+                "reference": "425054512c362835ba9c0307561973c8eeac7385"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3ef5c8a85b4c598d5ffaf98afd72f6a5d6a0be2c",
-                "reference": "3ef5c8a85b4c598d5ffaf98afd72f6a5d6a0be2c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/425054512c362835ba9c0307561973c8eeac7385",
+                "reference": "425054512c362835ba9c0307561973c8eeac7385",
                 "shasum": ""
             },
             "require": {
@@ -1614,7 +1614,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-10-16T16:32:21+00:00"
+            "time": "2024-10-22T14:13:31+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -4578,16 +4578,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.32.0",
+            "version": "v5.33.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "6e69539d9f29766480c38aeb55ed4f1b42d1b25d"
+                "reference": "dca072df7da5ef89474c748f4924ab01f02aa1db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/6e69539d9f29766480c38aeb55ed4f1b42d1b25d",
-                "reference": "6e69539d9f29766480c38aeb55ed4f1b42d1b25d",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/dca072df7da5ef89474c748f4924ab01f02aa1db",
+                "reference": "dca072df7da5ef89474c748f4924ab01f02aa1db",
                 "shasum": ""
             },
             "require": {
@@ -4670,7 +4670,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.32.0"
+                "source": "https://github.com/statamic/cms/tree/v5.33.1"
             },
             "funding": [
                 {
@@ -4678,7 +4678,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-18T15:13:43+00:00"
+            "time": "2024-10-22T21:24:42+00:00"
         },
         {
             "name": "statamic/quotefetcher",
@@ -8074,16 +8074,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.36.0",
+            "version": "v1.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "f184d3d687155d06bc8cb9ff6dc48596a138460c"
+                "reference": "5d385f2e698f0f774cdead82aff5d989fb95309b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/f184d3d687155d06bc8cb9ff6dc48596a138460c",
-                "reference": "f184d3d687155d06bc8cb9ff6dc48596a138460c",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/5d385f2e698f0f774cdead82aff5d989fb95309b",
+                "reference": "5d385f2e698f0f774cdead82aff5d989fb95309b",
                 "shasum": ""
             },
             "require": {
@@ -8133,7 +8133,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2024-10-10T13:26:02+00:00"
+            "time": "2024-10-21T17:13:38+00:00"
         },
         {
             "name": "maximebf/debugbar",
