@@ -28,6 +28,10 @@ sections:
       -
         handle: article_content
         field:
+          instructions: |
+            This is "Bard", our rich text editor. Of course you can write text, but the magic
+            happens between paragraphs where a + button will appear letting you add things
+            like quotes or relations to other articles.
           always_show_set_button: false
           previews: true
           buttons:
