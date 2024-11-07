@@ -39,7 +39,6 @@ return [
 
     'widgets' => [
         'welcome',
-        'getting_started',
         [
             'title' => 'Latest Articles',
             'type' => 'collection',
