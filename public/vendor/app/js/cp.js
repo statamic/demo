@@ -24,10 +24,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   var welcome = document.createElement('div');
 
-  (_welcome$classList = welcome.classList).add.apply(_welcome$classList, _toConsumableArray("max-w-sm mx-auto mb-4 text-center text-xs border border-yellow-dark rounded p-4 bg-yellow dark:bg-dark-blue-100 dark:border-none".split(' ')));
+  (_welcome$classList = welcome.classList).add.apply(_welcome$classList, _toConsumableArray("absolute top-0 w-full mx-auto text-left text-sm p-4 bg-yellow dark:bg-dark-blue-100 dark:border-none shadow-lg".split(' ')));
 
-  welcome.innerHTML = "\n        <p class=\"mb-4\">\uD83D\uDC4B Welcome to the Statamic Demo.</p>\n        <p class=\"mb-4\">Feel free to log in using the provided account, take a look around, and see how your actions are reflected on the front-end.</p>\n        <p>Every 30 minutes everything will be reverted to a clean slate.</p>\n    ";
-  document.querySelector('.logo').insertAdjacentElement('afterend', welcome);
+  welcome.innerHTML = "\n        <p>\uD83D\uDC4B <strong>Welcome to the Statamic Demo.</strong> Log in using the provided account, take a look around, and see how your actions are reflected on the front-end. Every 30 minutes all changes are wiped clean, so don't worry too much about breaking anything.</p>\n    ";
+  document.querySelector('body').insertAdjacentElement('afterend', welcome);
+  document.querySelector('.logo').style.marginTop = '40px';
 });
 /******/ })()
 ;
