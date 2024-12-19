@@ -2063,16 +2063,16 @@
         },
         {
             "name": "league/csv",
-            "version": "9.20.0",
+            "version": "9.20.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "553579df208641ada6ffb450b3a151e2fcfa4f31"
+                "reference": "491d1e79e973a7370c7571dc0fe4a7241f4936ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/553579df208641ada6ffb450b3a151e2fcfa4f31",
-                "reference": "553579df208641ada6ffb450b3a151e2fcfa4f31",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/491d1e79e973a7370c7571dc0fe4a7241f4936ee",
+                "reference": "491d1e79e973a7370c7571dc0fe4a7241f4936ee",
                 "shasum": ""
             },
             "require": {
@@ -2146,7 +2146,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-13T15:49:27+00:00"
+            "time": "2024-12-18T10:11:15+00:00"
         },
         {
             "name": "league/flysystem",
@@ -4764,16 +4764,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.43.0",
+            "version": "v5.44.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "483a310d8dc99396a4dee0a5031293093cf60c96"
+                "reference": "45d8f8566a547f0e976ab48fa08a409721d203c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/483a310d8dc99396a4dee0a5031293093cf60c96",
-                "reference": "483a310d8dc99396a4dee0a5031293093cf60c96",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/45d8f8566a547f0e976ab48fa08a409721d203c3",
+                "reference": "45d8f8566a547f0e976ab48fa08a409721d203c3",
                 "shasum": ""
             },
             "require": {
@@ -4858,7 +4858,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.43.0"
+                "source": "https://github.com/statamic/cms/tree/v5.44.0"
             },
             "funding": [
                 {
@@ -4866,7 +4866,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-17T20:36:04+00:00"
+            "time": "2024-12-19T00:27:19+00:00"
         },
         {
             "name": "statamic/quotefetcher",
