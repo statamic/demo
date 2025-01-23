@@ -1409,16 +1409,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.39.0",
+            "version": "v11.39.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "996c96955f78e8a2b26a24c490a1721cfb14574f"
+                "reference": "3d693dd36e78121bcd51fc02eda4bc137d2a17f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/996c96955f78e8a2b26a24c490a1721cfb14574f",
-                "reference": "996c96955f78e8a2b26a24c490a1721cfb14574f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3d693dd36e78121bcd51fc02eda4bc137d2a17f2",
+                "reference": "3d693dd36e78121bcd51fc02eda4bc137d2a17f2",
                 "shasum": ""
             },
             "require": {
@@ -1619,7 +1619,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-01-21T15:02:43+00:00"
+            "time": "2025-01-22T17:01:46+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -4763,16 +4763,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.45.2",
+            "version": "v5.46.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "c45d71fc064a56723f726dcd42f751ec973f5667"
+                "reference": "7a144d5c11f2b1aa1ec15ccccd7abf5bdb754210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/c45d71fc064a56723f726dcd42f751ec973f5667",
-                "reference": "c45d71fc064a56723f726dcd42f751ec973f5667",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/7a144d5c11f2b1aa1ec15ccccd7abf5bdb754210",
+                "reference": "7a144d5c11f2b1aa1ec15ccccd7abf5bdb754210",
                 "shasum": ""
             },
             "require": {
@@ -4857,7 +4857,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.45.2"
+                "source": "https://github.com/statamic/cms/tree/v5.46.0"
             },
             "funding": [
                 {
@@ -4865,7 +4865,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-21T11:40:20+00:00"
+            "time": "2025-01-22T19:19:52+00:00"
         },
         {
             "name": "statamic/quotefetcher",
