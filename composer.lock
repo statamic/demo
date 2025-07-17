@@ -4740,16 +4740,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.59.0",
+            "version": "v5.60.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "f38ad40d2c042de1be2b7dc8a497ae6c73ee2221"
+                "reference": "5468fab685ccc8f0b4a95e89405ee6c065d2237a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/f38ad40d2c042de1be2b7dc8a497ae6c73ee2221",
-                "reference": "f38ad40d2c042de1be2b7dc8a497ae6c73ee2221",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/5468fab685ccc8f0b4a95e89405ee6c065d2237a",
+                "reference": "5468fab685ccc8f0b4a95e89405ee6c065d2237a",
                 "shasum": ""
             },
             "require": {
@@ -4834,7 +4834,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.59.0"
+                "source": "https://github.com/statamic/cms/tree/v5.60.0"
             },
             "funding": [
                 {
@@ -4842,7 +4842,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-07-10T20:46:03+00:00"
+            "time": "2025-07-15T16:44:33+00:00"
         },
         {
             "name": "statamic/quotefetcher",
