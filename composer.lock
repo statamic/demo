@@ -2983,29 +2983,29 @@
         },
         {
             "name": "nette/utils",
-            "version": "v4.0.7",
+            "version": "v4.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "e67c4061eb40b9c113b218214e42cb5a0dda28f2"
+                "reference": "c930ca4e3cf4f17dcfb03037703679d2396d2ede"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/e67c4061eb40b9c113b218214e42cb5a0dda28f2",
-                "reference": "e67c4061eb40b9c113b218214e42cb5a0dda28f2",
+                "url": "https://api.github.com/repos/nette/utils/zipball/c930ca4e3cf4f17dcfb03037703679d2396d2ede",
+                "reference": "c930ca4e3cf4f17dcfb03037703679d2396d2ede",
                 "shasum": ""
             },
             "require": {
-                "php": "8.0 - 8.4"
+                "php": "8.0 - 8.5"
             },
             "conflict": {
                 "nette/finder": "<3",
                 "nette/schema": "<1.2.2"
             },
             "require-dev": {
-                "jetbrains/phpstorm-attributes": "dev-master",
+                "jetbrains/phpstorm-attributes": "^1.2",
                 "nette/tester": "^2.5",
-                "phpstan/phpstan": "^1.0",
+                "phpstan/phpstan-nette": "^2.0@stable",
                 "tracy/tracy": "^2.9"
             },
             "suggest": {
@@ -3023,6 +3023,9 @@
                 }
             },
             "autoload": {
+                "psr-4": {
+                    "Nette\\": "src"
+                },
                 "classmap": [
                     "src/"
                 ]
@@ -3063,9 +3066,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.0.7"
+                "source": "https://github.com/nette/utils/tree/v4.0.8"
             },
-            "time": "2025-06-03T04:55:08+00:00"
+            "time": "2025-08-06T21:43:34+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -4739,16 +4742,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.62.0",
+            "version": "v5.63.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "a84abfc6ab636502210e422e7b55aca943c255f7"
+                "reference": "62f6663e2f703314bd7db242becc5577a685304d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/a84abfc6ab636502210e422e7b55aca943c255f7",
-                "reference": "a84abfc6ab636502210e422e7b55aca943c255f7",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/62f6663e2f703314bd7db242becc5577a685304d",
+                "reference": "62f6663e2f703314bd7db242becc5577a685304d",
                 "shasum": ""
             },
             "require": {
@@ -4833,7 +4836,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.62.0"
+                "source": "https://github.com/statamic/cms/tree/v5.63.0"
             },
             "funding": [
                 {
@@ -4841,7 +4844,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-08-05T00:01:33+00:00"
+            "time": "2025-08-06T18:42:51+00:00"
         },
         {
             "name": "statamic/quotefetcher",
