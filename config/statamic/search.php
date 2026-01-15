@@ -27,7 +27,7 @@ return [
 
         'default' => [
             'driver' => 'local',
-            'searchables' => 'all',
+            'searchables' => 'content',
             'fields' => ['title', 'subtitle', 'teaser', 'article_content'],
         ],
 
