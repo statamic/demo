@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8eed6bb33a7729a5735b66b0737879ad",
+    "content-hash": "13c44478bf521130ccc6560eb62f30c9",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -5476,35 +5476,6 @@
                 }
             ],
             "time": "2026-01-13T22:09:51+00:00"
-        },
-        {
-            "name": "statamic/quotefetcher",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "addons/statamic/quotefetcher",
-                "reference": "c5f0c65f3b2618d02c1202d3c70b62bb7660f922"
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Quotefetcher",
-                    "description": "Quotefetcher addon"
-                },
-                "laravel": {
-                    "providers": [
-                        "Statamic\\Quotefetcher\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Statamic\\Quotefetcher\\": "src"
-                }
-            },
-            "transport-options": {
-                "relative": true
-            }
         },
         {
             "name": "statamic/seo-pro",
@@ -12133,9 +12104,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "statamic/quotefetcher": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

@@ -16,7 +16,6 @@
         "laravel/tinker": "^2.7",
         "spatie/fork": "^1.1",
         "statamic/cms": "^6.0",
-        "statamic/quotefetcher": "dev-main",
         "statamic/seo-pro": "^7.0"
     },
     "require-dev": {
@@ -74,11 +73,5 @@
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
         ]
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "addons/statamic/quotefetcher"
-        }
-    ]
+    }
 }
