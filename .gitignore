@@ -2,8 +2,7 @@
 /public/hot
 /public/storage
 /public/vendor/statamic
-/public/css/*
-/public/js/*
+/public/build
 /storage/*.key
 /vendor
 .env
