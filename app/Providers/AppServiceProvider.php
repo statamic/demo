@@ -24,8 +24,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-//         Statamic::vite('app', [
-//             'resources/js/app.js',
-//         ]);
+        Statamic::vite('app', [
+            'input' => [
+                'resources/js/cp.js',
+//                'resources/css/cp.css',
+            ],
+            'buildDirectory' => 'vendor/app',
+        ]);
     }
 }
