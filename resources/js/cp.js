@@ -1,4 +1,5 @@
 import { router } from '@statamic/cms/inertia';
+import WelcomeWidget from './widgets/Welcome.vue';
 
 // Necessary in order for Vue to update its state.
 const setInput = (sel, val) => {
@@ -26,4 +27,8 @@ router.on('navigate', (event) => {
         document.querySelector('body').insertAdjacentElement('afterend', welcome);
         document.querySelector('.logo').style.marginTop = '30px';
     }
-})
+});
+
+Statamic.booting(() => {
+    Statamic.$components.register('welcome-widget', WelcomeWidget);
+});
