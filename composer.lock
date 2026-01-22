@@ -1403,16 +1403,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.47.0",
+            "version": "v11.48.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "86693ffa1ba32f56f8c44e31416c6665095a62c5"
+                "reference": "5b23ab29087dbcb13077e5c049c431ec4b82f236"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/86693ffa1ba32f56f8c44e31416c6665095a62c5",
-                "reference": "86693ffa1ba32f56f8c44e31416c6665095a62c5",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/5b23ab29087dbcb13077e5c049c431ec4b82f236",
+                "reference": "5b23ab29087dbcb13077e5c049c431ec4b82f236",
                 "shasum": ""
             },
             "require": {
@@ -1614,20 +1614,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-11-28T18:20:11+00:00"
+            "time": "2026-01-20T15:26:20+00:00"
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.3.9",
+            "version": "v0.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "5c41bf0555b7cfefaad4e66d3046675829581ac4"
+                "reference": "360ba095ef9f51017473505191fbd4ab73e1cab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/5c41bf0555b7cfefaad4e66d3046675829581ac4",
-                "reference": "5c41bf0555b7cfefaad4e66d3046675829581ac4",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/360ba095ef9f51017473505191fbd4ab73e1cab3",
+                "reference": "360ba095ef9f51017473505191fbd4ab73e1cab3",
                 "shasum": ""
             },
             "require": {
@@ -1671,22 +1671,22 @@
             "description": "Add beautiful and user-friendly forms to your command-line applications.",
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.3.9"
+                "source": "https://github.com/laravel/prompts/tree/v0.3.10"
             },
-            "time": "2026-01-07T21:00:29+00:00"
+            "time": "2026-01-13T20:29:29+00:00"
         },
         {
             "name": "laravel/sanctum",
-            "version": "v4.2.3",
+            "version": "v4.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sanctum.git",
-                "reference": "47d26f1d310879ff757b971f5a6fc631d18663fd"
+                "reference": "dadd2277ff0f05cdb435c8b6a0bcedcf3b5519a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sanctum/zipball/47d26f1d310879ff757b971f5a6fc631d18663fd",
-                "reference": "47d26f1d310879ff757b971f5a6fc631d18663fd",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/dadd2277ff0f05cdb435c8b6a0bcedcf3b5519a9",
+                "reference": "dadd2277ff0f05cdb435c8b6a0bcedcf3b5519a9",
                 "shasum": ""
             },
             "require": {
@@ -1736,7 +1736,7 @@
                 "issues": "https://github.com/laravel/sanctum/issues",
                 "source": "https://github.com/laravel/sanctum"
             },
-            "time": "2026-01-11T18:20:25+00:00"
+            "time": "2026-01-15T14:37:16+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -2400,20 +2400,20 @@
         },
         {
             "name": "league/uri",
-            "version": "7.7.0",
+            "version": "7.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri.git",
-                "reference": "8d587cddee53490f9b82bf203d3a9aa7ea4f9807"
+                "reference": "4436c6ec8d458e4244448b069cc572d088230b76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri/zipball/8d587cddee53490f9b82bf203d3a9aa7ea4f9807",
-                "reference": "8d587cddee53490f9b82bf203d3a9aa7ea4f9807",
+                "url": "https://api.github.com/repos/thephpleague/uri/zipball/4436c6ec8d458e4244448b069cc572d088230b76",
+                "reference": "4436c6ec8d458e4244448b069cc572d088230b76",
                 "shasum": ""
             },
             "require": {
-                "league/uri-interfaces": "^7.7",
+                "league/uri-interfaces": "^7.8",
                 "php": "^8.1",
                 "psr/http-factory": "^1"
             },
@@ -2427,11 +2427,11 @@
                 "ext-gmp": "to improve IPV4 host parsing",
                 "ext-intl": "to handle IDN host with the best performance",
                 "ext-uri": "to use the PHP native URI class",
-                "jeremykendall/php-domain-parser": "to resolve Public Suffix and Top Level Domain",
-                "league/uri-components": "Needed to easily manipulate URI objects components",
-                "league/uri-polyfill": "Needed to backport the PHP URI extension for older versions of PHP",
+                "jeremykendall/php-domain-parser": "to further parse the URI host and resolve its Public Suffix and Top Level Domain",
+                "league/uri-components": "to provide additional tools to manipulate URI objects components",
+                "league/uri-polyfill": "to backport the PHP URI extension for older versions of PHP",
                 "php-64bit": "to improve IPV4 host parsing",
-                "rowbot/url": "to handle WHATWG URL",
+                "rowbot/url": "to handle URLs using the WHATWG URL Living Standard specification",
                 "symfony/polyfill-intl-idn": "to handle IDN host via the Symfony polyfill if ext-intl is not present"
             },
             "type": "library",
@@ -2486,7 +2486,7 @@
                 "docs": "https://uri.thephpleague.com",
                 "forum": "https://thephpleague.slack.com",
                 "issues": "https://github.com/thephpleague/uri-src/issues",
-                "source": "https://github.com/thephpleague/uri/tree/7.7.0"
+                "source": "https://github.com/thephpleague/uri/tree/7.8.0"
             },
             "funding": [
                 {
@@ -2494,20 +2494,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-07T16:02:06+00:00"
+            "time": "2026-01-14T17:24:56+00:00"
         },
         {
             "name": "league/uri-interfaces",
-            "version": "7.7.0",
+            "version": "7.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri-interfaces.git",
-                "reference": "62ccc1a0435e1c54e10ee6022df28d6c04c2946c"
+                "reference": "c5c5cd056110fc8afaba29fa6b72a43ced42acd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/62ccc1a0435e1c54e10ee6022df28d6c04c2946c",
-                "reference": "62ccc1a0435e1c54e10ee6022df28d6c04c2946c",
+                "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/c5c5cd056110fc8afaba29fa6b72a43ced42acd4",
+                "reference": "c5c5cd056110fc8afaba29fa6b72a43ced42acd4",
                 "shasum": ""
             },
             "require": {
@@ -2520,7 +2520,7 @@
                 "ext-gmp": "to improve IPV4 host parsing",
                 "ext-intl": "to handle IDN host with the best performance",
                 "php-64bit": "to improve IPV4 host parsing",
-                "rowbot/url": "to handle WHATWG URL",
+                "rowbot/url": "to handle URLs using the WHATWG URL Living Standard specification",
                 "symfony/polyfill-intl-idn": "to handle IDN host via the Symfony polyfill if ext-intl is not present"
             },
             "type": "library",
@@ -2570,7 +2570,7 @@
                 "docs": "https://uri.thephpleague.com",
                 "forum": "https://thephpleague.slack.com",
                 "issues": "https://github.com/thephpleague/uri-src/issues",
-                "source": "https://github.com/thephpleague/uri-interfaces/tree/7.7.0"
+                "source": "https://github.com/thephpleague/uri-interfaces/tree/7.8.0"
             },
             "funding": [
                 {
@@ -2578,7 +2578,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-07T16:03:21+00:00"
+            "time": "2026-01-15T06:54:53+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
@@ -4532,16 +4532,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.72.0",
+            "version": "v5.73.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "f180fc3f5462ae703c85fcd8813e61232aff2117"
+                "reference": "7635298d205eec59d76549a82ab79903176bc218"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/f180fc3f5462ae703c85fcd8813e61232aff2117",
-                "reference": "f180fc3f5462ae703c85fcd8813e61232aff2117",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/7635298d205eec59d76549a82ab79903176bc218",
+                "reference": "7635298d205eec59d76549a82ab79903176bc218",
                 "shasum": ""
             },
             "require": {
@@ -4636,7 +4636,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.72.0"
+                "source": "https://github.com/statamic/cms/tree/v5.73.1"
             },
             "funding": [
                 {
@@ -4644,7 +4644,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-13T20:09:36+00:00"
+            "time": "2026-01-22T04:49:24+00:00"
         },
         {
             "name": "statamic/quotefetcher",
@@ -4677,16 +4677,16 @@
         },
         {
             "name": "statamic/seo-pro",
-            "version": "6.11.5",
+            "version": "6.11.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/seo-pro.git",
-                "reference": "88484c562e508e9f7ff9f483669586b8917174ba"
+                "reference": "4174a7e7c3f4f40baf4a432b3d40797be89414a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/seo-pro/zipball/88484c562e508e9f7ff9f483669586b8917174ba",
-                "reference": "88484c562e508e9f7ff9f483669586b8917174ba",
+                "url": "https://api.github.com/repos/statamic/seo-pro/zipball/4174a7e7c3f4f40baf4a432b3d40797be89414a8",
+                "reference": "4174a7e7c3f4f40baf4a432b3d40797be89414a8",
                 "shasum": ""
             },
             "require": {
@@ -4718,9 +4718,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/statamic/seo-pro/issues",
-                "source": "https://github.com/statamic/seo-pro/tree/6.11.5"
+                "source": "https://github.com/statamic/seo-pro/tree/6.11.6"
             },
-            "time": "2025-12-08T10:05:26+00:00"
+            "time": "2026-01-15T10:05:24+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -7920,16 +7920,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.29.4",
+            "version": "v15.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "7ae6371184a1909822916ff101eab7e6e070c656"
+                "reference": "eb3b86e3c1034055972ec2685f13b34c660d8844"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/7ae6371184a1909822916ff101eab7e6e070c656",
-                "reference": "7ae6371184a1909822916ff101eab7e6e070c656",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/eb3b86e3c1034055972ec2685f13b34c660d8844",
+                "reference": "eb3b86e3c1034055972ec2685f13b34c660d8844",
                 "shasum": ""
             },
             "require": {
@@ -7942,12 +7942,12 @@
                 "amphp/http-server": "^2.1",
                 "dms/phpunit-arraysubset-asserts": "dev-master",
                 "ergebnis/composer-normalize": "^2.28",
-                "friendsofphp/php-cs-fixer": "3.92.4",
-                "mll-lab/php-cs-fixer-config": "5.11.0",
+                "friendsofphp/php-cs-fixer": "3.92.5",
+                "mll-lab/php-cs-fixer-config": "5.13.0",
                 "nyholm/psr7": "^1.5",
                 "phpbench/phpbench": "^1.2",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "2.1.33",
+                "phpstan/phpstan": "2.1.34",
                 "phpstan/phpstan-phpunit": "2.0.11",
                 "phpstan/phpstan-strict-rules": "2.0.7",
                 "phpunit/phpunit": "^9.5 || ^10.5.21 || ^11",
@@ -7983,7 +7983,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.29.4"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.30.0"
             },
             "funding": [
                 {
@@ -7991,7 +7991,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-01-05T16:06:25+00:00"
+            "time": "2026-01-20T07:10:44+00:00"
         },
         {
             "name": "wilderborn/partyline",
@@ -10408,38 +10408,39 @@
         },
         {
             "name": "spatie/laravel-ignition",
-            "version": "2.9.1",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-ignition.git",
-                "reference": "1baee07216d6748ebd3a65ba97381b051838707a"
+                "reference": "2abefdcca6074a9155f90b4ccb3345af8889d5f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/1baee07216d6748ebd3a65ba97381b051838707a",
-                "reference": "1baee07216d6748ebd3a65ba97381b051838707a",
+                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/2abefdcca6074a9155f90b4ccb3345af8889d5f5",
+                "reference": "2abefdcca6074a9155f90b4ccb3345af8889d5f5",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "illuminate/support": "^10.0|^11.0|^12.0",
-                "php": "^8.1",
-                "spatie/ignition": "^1.15",
-                "symfony/console": "^6.2.3|^7.0",
-                "symfony/var-dumper": "^6.2.3|^7.0"
+                "illuminate/support": "^11.0|^12.0",
+                "nesbot/carbon": "^2.72|^3.0",
+                "php": "^8.2",
+                "spatie/ignition": "^1.15.1",
+                "symfony/console": "^7.4|^8.0",
+                "symfony/var-dumper": "^7.4|^8.0"
             },
             "require-dev": {
-                "livewire/livewire": "^2.11|^3.3.5",
-                "mockery/mockery": "^1.5.1",
-                "openai-php/client": "^0.8.1|^0.10",
-                "orchestra/testbench": "8.22.3|^9.0|^10.0",
-                "pestphp/pest": "^2.34|^3.7",
-                "phpstan/extension-installer": "^1.3.1",
-                "phpstan/phpstan-deprecation-rules": "^1.1.1|^2.0",
-                "phpstan/phpstan-phpunit": "^1.3.16|^2.0",
-                "vlucas/phpdotenv": "^5.5"
+                "livewire/livewire": "^3.7.0|^4.0",
+                "mockery/mockery": "^1.6.12",
+                "openai-php/client": "^0.10.3",
+                "orchestra/testbench": "^v9.16.0|^10.6",
+                "pestphp/pest": "^3.7|^4.0",
+                "phpstan/extension-installer": "^1.4.3",
+                "phpstan/phpstan-deprecation-rules": "^2.0.3",
+                "phpstan/phpstan-phpunit": "^2.0.8",
+                "vlucas/phpdotenv": "^5.6.2"
             },
             "suggest": {
                 "openai-php/client": "Require get solutions from OpenAI",
@@ -10495,7 +10496,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-20T13:13:55+00:00"
+            "time": "2026-01-20T13:16:11+00:00"
         },
         {
             "name": "theseer/tokenizer",
