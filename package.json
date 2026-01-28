@@ -1,6 +1,7 @@
 {
     "$schema": "https://www.schemastore.org/package.json",
     "private": true,
+    "type": "module",
     "scripts": {
         "build": "vite build",
         "dev": "vite",
@@ -11,12 +12,12 @@
     "devDependencies": {
         "@tailwindcss/typography": "^0.5.1",
         "autoprefixer": "^10.4.13",
-        "laravel-vite-plugin": "^2.0.0",
+        "laravel-vite-plugin": "^1.0.5",
         "cross-env": "^7.0",
         "postcss": "^8.4.19",
         "postcss-import": "^14.0.1",
         "tailwindcss": "^3.2.3",
-        "vite": "^7.0.4"
+        "vite": "^5.0.0"
     },
     "dependencies": {
         "@statamic/cms": "file:./vendor/statamic/cms/resources/dist-package"
