@@ -210,15 +210,6 @@ tabs:
               instructions_position: above
               visibility: visible
               always_save: false
-          -
-            handle: parent
-            field:
-              type: entries
-              collections:
-                - pages
-              max_items: 1
-              listable: false
-              localizable: true
   SEO:
     display: SEO
     sections:
