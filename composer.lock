@@ -3108,16 +3108,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.11.0",
+            "version": "3.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon.git",
-                "reference": "bdb375400dcd162624531666db4799b36b64e4a1"
+                "reference": "f438fcc98f92babee98381d399c65336f3a3827f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/bdb375400dcd162624531666db4799b36b64e4a1",
-                "reference": "bdb375400dcd162624531666db4799b36b64e4a1",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/f438fcc98f92babee98381d399c65336f3a3827f",
+                "reference": "f438fcc98f92babee98381d399c65336f3a3827f",
                 "shasum": ""
             },
             "require": {
@@ -3141,7 +3141,7 @@
                 "phpstan/extension-installer": "^1.4.3",
                 "phpstan/phpstan": "^2.1.22",
                 "phpunit/phpunit": "^10.5.53",
-                "squizlabs/php_codesniffer": "^3.13.4"
+                "squizlabs/php_codesniffer": "^3.13.4 || ^4.0.0"
             },
             "bin": [
                 "bin/carbon"
@@ -3184,14 +3184,14 @@
                 }
             ],
             "description": "An API extension for DateTime that supports 281 different languages.",
-            "homepage": "https://carbon.nesbot.com",
+            "homepage": "https://carbonphp.github.io/carbon/",
             "keywords": [
                 "date",
                 "datetime",
                 "time"
             ],
             "support": {
-                "docs": "https://carbon.nesbot.com/docs",
+                "docs": "https://carbonphp.github.io/carbon/guide/getting-started/introduction.html",
                 "issues": "https://github.com/CarbonPHP/carbon/issues",
                 "source": "https://github.com/CarbonPHP/carbon"
             },
@@ -3209,7 +3209,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-02T21:04:28+00:00"
+            "time": "2026-01-29T09:26:29+00:00"
         },
         {
             "name": "nette/schema",
@@ -5346,16 +5346,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v6.0.0",
+            "version": "v6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "d1bb31cfa1191226cee2a2d1e17aa4c25541e568"
+                "reference": "a3e1ef2853f9c6d0624f00487635ab064c47190d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/d1bb31cfa1191226cee2a2d1e17aa4c25541e568",
-                "reference": "d1bb31cfa1191226cee2a2d1e17aa4c25541e568",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/a3e1ef2853f9c6d0624f00487635ab064c47190d",
+                "reference": "a3e1ef2853f9c6d0624f00487635ab064c47190d",
                 "shasum": ""
             },
             "require": {
@@ -5467,7 +5467,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v6.0.0"
+                "source": "https://github.com/statamic/cms/tree/v6.1.0"
             },
             "funding": [
                 {
@@ -5475,7 +5475,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-28T15:37:08+00:00"
+            "time": "2026-01-29T20:22:27+00:00"
         },
         {
             "name": "statamic/seo-pro",
@@ -9385,16 +9385,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.30.0",
+            "version": "v15.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "eb3b86e3c1034055972ec2685f13b34c660d8844"
+                "reference": "12175bc314f0adc1f3e77f7efd0c8cd24f69b483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/eb3b86e3c1034055972ec2685f13b34c660d8844",
-                "reference": "eb3b86e3c1034055972ec2685f13b34c660d8844",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/12175bc314f0adc1f3e77f7efd0c8cd24f69b483",
+                "reference": "12175bc314f0adc1f3e77f7efd0c8cd24f69b483",
                 "shasum": ""
             },
             "require": {
@@ -9407,14 +9407,14 @@
                 "amphp/http-server": "^2.1",
                 "dms/phpunit-arraysubset-asserts": "dev-master",
                 "ergebnis/composer-normalize": "^2.28",
-                "friendsofphp/php-cs-fixer": "3.92.5",
+                "friendsofphp/php-cs-fixer": "3.93.1",
                 "mll-lab/php-cs-fixer-config": "5.13.0",
                 "nyholm/psr7": "^1.5",
                 "phpbench/phpbench": "^1.2",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "2.1.34",
-                "phpstan/phpstan-phpunit": "2.0.11",
-                "phpstan/phpstan-strict-rules": "2.0.7",
+                "phpstan/phpstan": "2.1.37",
+                "phpstan/phpstan-phpunit": "2.0.12",
+                "phpstan/phpstan-strict-rules": "2.0.8",
                 "phpunit/phpunit": "^9.5 || ^10.5.21 || ^11",
                 "psr/http-message": "^1 || ^2",
                 "react/http": "^1.6",
@@ -9448,7 +9448,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.30.0"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.30.1"
             },
             "funding": [
                 {
@@ -9456,7 +9456,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-01-20T07:10:44+00:00"
+            "time": "2026-01-29T15:14:01+00:00"
         },
         {
             "name": "wilderborn/partyline",
