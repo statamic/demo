@@ -21,7 +21,7 @@ router.on('navigate', (event) => {
         if (! document.querySelector('#welcome')) {
             var welcome = document.createElement('div');
             welcome.id = 'welcome';
-            welcome.classList.add(...`w-full mx-auto text-left text-sm p-4 bg-yellow dark:bg-dark-blue-100 dark:border-none shadow-lg`.split(' ')); // These classes are included in Statamic's CSS
+            welcome.classList.add(...`w-full mx-auto text-left text-sm p-4 bg-yellow dark:bg-dark-blue-100 dark:border-none text-gray-900 shadow-lg`.split(' ')); // These classes are included in Statamic's CSS
             welcome.style.marginTop = '-0.5rem'; // These don't have equivalent in Statamic's CSS
             welcome.style.marginLeft = '-0.5rem';
             welcome.style.marginRight = '-0.5rem';
