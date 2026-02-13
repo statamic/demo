@@ -5,17 +5,17 @@
             <ul class="hidden lg:flex items-center space-x-4 ml-6">
                 {{ nav:collection:pages }}
                     {{ if ! children }}
-                        <li><a href="{{ url }}" class="p-2 relative hover:text-white transition">{{ title }}</a></li>
+                        <li><a href="{{ url }}" class="p-2 relative hover:text-white transition">{{ title | sanitize }}</a></li>
                     {{ else }}
                     <li class="group">
                         <button class="p-2 relative flex items-center transition group-hover:text-white">
-                            <span>{{ title }}</span>
+                            <span>{{ title | sanitize }}</span>
                             {{ svg src="icons/arrow-down" class="ml-2" }}
                         </button>
                         <div class="absolute rounded-lg py-4 -mt-2 px-2 bg-gray-200 hidden group-hover:block">
                             <ul class="flex-col">
                                 {{ children }}
-                                <li><a href="{{ url }}" class="py-2 px-4 block transition hover:bg-gray-300 rounded hover:text-white">{{ title }}</a></li>
+                                <li><a href="{{ url }}" class="py-2 px-4 block transition hover:bg-gray-300 rounded hover:text-white">{{ title | sanitize }}</a></li>
                                 {{ /children }}
                             </ul>
                         </div>
@@ -58,7 +58,7 @@
     <div class="p-2 border-t w-full bg-gray-100 min-h-screen absolute z-30" x-show="mobileNavOpen" x-cloak x-trap.noscroll="mobileNavOpen">
         <ul class="flex flex-col text-white">
             {{ nav:collection:pages include_home="true" }}
-                <li><a href="{{ url }}" class="py-2 px-4 block font-bold">{{ title }}</a></li>
+                <li><a href="{{ url }}" class="py-2 px-4 block font-bold">{{ title | sanitize }}</a></li>
             {{ /nav:collection:pages }}
         </ul>
     </div>
