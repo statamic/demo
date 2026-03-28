@@ -5047,27 +5047,27 @@
         },
         {
             "name": "spatie/fork",
-            "version": "1.2.5",
+            "version": "1.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/fork.git",
-                "reference": "bde768a99be8cff41b8ec4991b016dcb58f414e8"
+                "reference": "83a51210fd366af3972aad119e7ab5e35ac57850"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/fork/zipball/bde768a99be8cff41b8ec4991b016dcb58f414e8",
-                "reference": "bde768a99be8cff41b8ec4991b016dcb58f414e8",
+                "url": "https://api.github.com/repos/spatie/fork/zipball/83a51210fd366af3972aad119e7ab5e35ac57850",
+                "reference": "83a51210fd366af3972aad119e7ab5e35ac57850",
                 "shasum": ""
             },
             "require": {
                 "ext-pcntl": "*",
                 "ext-sockets": "*",
-                "php": "^8.0"
+                "php": "^8.3"
             },
             "require-dev": {
-                "nesbot/carbon": "^2.66",
-                "pestphp/pest": "^1.23",
-                "phpunit/phpunit": "^9.5",
+                "laravel/pint": "^1.0",
+                "nesbot/carbon": "^2.66|^3.0",
+                "pestphp/pest": "^4.0",
                 "spatie/ray": "^1.10"
             },
             "type": "library",
@@ -5100,7 +5100,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/fork/issues",
-                "source": "https://github.com/spatie/fork/tree/1.2.5"
+                "source": "https://github.com/spatie/fork/tree/1.2.7"
             },
             "funding": [
                 {
@@ -5108,7 +5108,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-24T08:58:04+00:00"
+            "time": "2026-03-27T19:08:46+00:00"
         },
         {
             "name": "spatie/shiki-php",
@@ -5358,16 +5358,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v6.7.3",
+            "version": "v6.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "470e08f392abc79c88b71c78a146ec52fbd2fd07"
+                "reference": "d62b8f6df992bcbc26dffe91a17cdffddd56e122"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/470e08f392abc79c88b71c78a146ec52fbd2fd07",
-                "reference": "470e08f392abc79c88b71c78a146ec52fbd2fd07",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/d62b8f6df992bcbc26dffe91a17cdffddd56e122",
+                "reference": "d62b8f6df992bcbc26dffe91a17cdffddd56e122",
                 "shasum": ""
             },
             "require": {
@@ -5479,7 +5479,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v6.7.3"
+                "source": "https://github.com/statamic/cms/tree/v6.8.0"
             },
             "funding": [
                 {
@@ -5487,7 +5487,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-25T18:24:45+00:00"
+            "time": "2026-03-27T20:38:39+00:00"
         },
         {
             "name": "statamic/seo-pro",
