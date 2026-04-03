@@ -5359,16 +5359,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v6.9.0",
+            "version": "v6.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "8cef4a4c57c00a77e3647ccff5ef9f58e6929685"
+                "reference": "8e1691bd4ff9f3e639d1480ddd422fb67711cb08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/8cef4a4c57c00a77e3647ccff5ef9f58e6929685",
-                "reference": "8cef4a4c57c00a77e3647ccff5ef9f58e6929685",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/8e1691bd4ff9f3e639d1480ddd422fb67711cb08",
+                "reference": "8e1691bd4ff9f3e639d1480ddd422fb67711cb08",
                 "shasum": ""
             },
             "require": {
@@ -5480,7 +5480,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v6.9.0"
+                "source": "https://github.com/statamic/cms/tree/v6.10.0"
             },
             "funding": [
                 {
@@ -5488,7 +5488,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-01T19:57:39+00:00"
+            "time": "2026-04-02T18:58:30+00:00"
         },
         {
             "name": "statamic/seo-pro",
@@ -10197,16 +10197,16 @@
         },
         {
             "name": "php-debugbar/php-debugbar",
-            "version": "v3.6.2",
+            "version": "v3.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-debugbar/php-debugbar.git",
-                "reference": "942d4bb6960eacde8c5dcd5af269e2f87db3b39f"
+                "reference": "e8fb14e0641a364c7834de8ef7d4e7ac17525235"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-debugbar/php-debugbar/zipball/942d4bb6960eacde8c5dcd5af269e2f87db3b39f",
-                "reference": "942d4bb6960eacde8c5dcd5af269e2f87db3b39f",
+                "url": "https://api.github.com/repos/php-debugbar/php-debugbar/zipball/e8fb14e0641a364c7834de8ef7d4e7ac17525235",
+                "reference": "e8fb14e0641a364c7834de8ef7d4e7ac17525235",
                 "shasum": ""
             },
             "require": {
@@ -10283,7 +10283,7 @@
             ],
             "support": {
                 "issues": "https://github.com/php-debugbar/php-debugbar/issues",
-                "source": "https://github.com/php-debugbar/php-debugbar/tree/v3.6.2"
+                "source": "https://github.com/php-debugbar/php-debugbar/tree/v3.6.3"
             },
             "funding": [
                 {
@@ -10295,7 +10295,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-01T13:49:34+00:00"
+            "time": "2026-04-02T18:44:47+00:00"
         },
         {
             "name": "php-debugbar/symfony-bridge",
@@ -10711,16 +10711,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "12.5.15",
+            "version": "12.5.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "aeb6899ffdbbf4b4ff5e6b6ebb77b35c51bb6d9a"
+                "reference": "b2429f58ae75cae980b5bb9873abe4de6aac8b58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/aeb6899ffdbbf4b4ff5e6b6ebb77b35c51bb6d9a",
-                "reference": "aeb6899ffdbbf4b4ff5e6b6ebb77b35c51bb6d9a",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b2429f58ae75cae980b5bb9873abe4de6aac8b58",
+                "reference": "b2429f58ae75cae980b5bb9873abe4de6aac8b58",
                 "shasum": ""
             },
             "require": {
@@ -10789,7 +10789,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.15"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.16"
             },
             "funding": [
                 {
@@ -10797,7 +10797,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-03-31T06:41:33+00:00"
+            "time": "2026-04-03T05:26:42+00:00"
         },
         {
             "name": "sebastian/cli-parser",
