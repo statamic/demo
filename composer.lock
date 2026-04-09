@@ -5359,16 +5359,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v6.11.0",
+            "version": "v6.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "5ba8ea77b48b389a4b3a78f17d2534a7afc1a5ec"
+                "reference": "211e39f3fb1369e5a4b099b2a33dadab942e2f72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/5ba8ea77b48b389a4b3a78f17d2534a7afc1a5ec",
-                "reference": "5ba8ea77b48b389a4b3a78f17d2534a7afc1a5ec",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/211e39f3fb1369e5a4b099b2a33dadab942e2f72",
+                "reference": "211e39f3fb1369e5a4b099b2a33dadab942e2f72",
                 "shasum": ""
             },
             "require": {
@@ -5480,7 +5480,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v6.11.0"
+                "source": "https://github.com/statamic/cms/tree/v6.12.0"
             },
             "funding": [
                 {
@@ -5488,7 +5488,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-07T20:41:28+00:00"
+            "time": "2026-04-08T23:50:00+00:00"
         },
         {
             "name": "statamic/seo-pro",
@@ -9624,16 +9624,16 @@
         },
         {
             "name": "fruitcake/laravel-debugbar",
-            "version": "v4.2.4",
+            "version": "v4.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fruitcake/laravel-debugbar.git",
-                "reference": "3c70910acfb35850b9304278b4af97fecb1128f4"
+                "reference": "4f62913c865023ccd2c34d8d2d13916d2c5720f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fruitcake/laravel-debugbar/zipball/3c70910acfb35850b9304278b4af97fecb1128f4",
-                "reference": "3c70910acfb35850b9304278b4af97fecb1128f4",
+                "url": "https://api.github.com/repos/fruitcake/laravel-debugbar/zipball/4f62913c865023ccd2c34d8d2d13916d2c5720f8",
+                "reference": "4f62913c865023ccd2c34d8d2d13916d2c5720f8",
                 "shasum": ""
             },
             "require": {
@@ -9641,7 +9641,7 @@
                 "illuminate/session": "^11|^12|^13.0",
                 "illuminate/support": "^11|^12|^13.0",
                 "php": "^8.2",
-                "php-debugbar/php-debugbar": "^3.7",
+                "php-debugbar/php-debugbar": "^3.7.2",
                 "php-debugbar/symfony-bridge": "^1.1"
             },
             "replace": {
@@ -9710,7 +9710,7 @@
             ],
             "support": {
                 "issues": "https://github.com/fruitcake/laravel-debugbar/issues",
-                "source": "https://github.com/fruitcake/laravel-debugbar/tree/v4.2.4"
+                "source": "https://github.com/fruitcake/laravel-debugbar/tree/v4.2.5"
             },
             "funding": [
                 {
@@ -9722,7 +9722,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-04T08:05:27+00:00"
+            "time": "2026-04-08T09:39:15+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -10197,16 +10197,16 @@
         },
         {
             "name": "php-debugbar/php-debugbar",
-            "version": "v3.7.2",
+            "version": "v3.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-debugbar/php-debugbar.git",
-                "reference": "032dd5a385f528fcf0c8676af49559b2d1a0bea6"
+                "reference": "ea965a77f10b3824881b0ae7dba70d2038a9df84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-debugbar/php-debugbar/zipball/032dd5a385f528fcf0c8676af49559b2d1a0bea6",
-                "reference": "032dd5a385f528fcf0c8676af49559b2d1a0bea6",
+                "url": "https://api.github.com/repos/php-debugbar/php-debugbar/zipball/ea965a77f10b3824881b0ae7dba70d2038a9df84",
+                "reference": "ea965a77f10b3824881b0ae7dba70d2038a9df84",
                 "shasum": ""
             },
             "require": {
@@ -10283,7 +10283,7 @@
             ],
             "support": {
                 "issues": "https://github.com/php-debugbar/php-debugbar/issues",
-                "source": "https://github.com/php-debugbar/php-debugbar/tree/v3.7.2"
+                "source": "https://github.com/php-debugbar/php-debugbar/tree/v3.7.3"
             },
             "funding": [
                 {
@@ -10295,7 +10295,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-07T10:37:03+00:00"
+            "time": "2026-04-08T07:22:30+00:00"
         },
         {
             "name": "php-debugbar/symfony-bridge",
