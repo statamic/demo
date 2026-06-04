@@ -12,9 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     name: Auto Update
     permissions:
-      contents: write # push the auto-update branch
-      pull-requests: write # open the update pull request
+      contents: read
     steps:
+      - name: Generate App Token
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        id: app-token
+        with:
+          app-id: ${{ secrets.AUTO_UPDATE_APP_ID }}
+          private-key: ${{ secrets.AUTO_UPDATE_APP_PRIVATE_KEY }}
+
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
@@ -45,20 +51,20 @@ jobs:
         id: updated-statamic-version
         run: echo "statamic_version=$(composer show statamic/cms | grep 'versions' | grep -o -E '\* .+' | cut -d' ' -f2 | cut -d',' -f1)" >> "$GITHUB_OUTPUT"
 
-      - name: Verify Changed files
-        uses: tj-actions/verify-changed-files@a1c6acee9df209257a246f2cc6ae8cb6581c1edf # v20
+      - name: Verify Changed Files
         id: verify-changed-files
-        with:
-          files: |
-             composer.json
-             composer.lock
-             public/vendor
+        run: |
+          if git diff --quiet -- composer.json composer.lock && [ -z "$(git status --porcelain public/vendor)" ]; then
+            echo "files_changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "files_changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Open a Pull Request # zizmor: ignore[superfluous-actions]
         if: steps.verify-changed-files.outputs.files_changed == 'true' && steps.current-statamic-version.outputs.statamic_version != steps.updated-statamic-version.outputs.statamic_version
-        uses: peter-evans/create-pull-request@18f7dc018cc2cd597073088f7c7591b9d1c02672 # v3
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ steps.app-token.outputs.token }}
           commit-message: "Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}"
           title: "Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}"
           body: "This pull request updates this site to [Statamic ${{ steps.updated-statamic-version.outputs.statamic_version }}](https://github.com/statamic/cms/releases/${{ steps.updated-statamic-version.outputs.statamic_version }}) as well as any additional dependencies."
