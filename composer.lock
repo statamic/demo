@@ -1375,16 +1375,16 @@
         },
         {
             "name": "inertiajs/inertia-laravel",
-            "version": "v3.6.0",
+            "version": "v3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inertiajs/inertia-laravel.git",
-                "reference": "cb1a80fde6cfbd59be14e9cc6c086f5ef08c3ec8"
+                "reference": "9d3f9060c1614565eb4d3a3208015ed01de347bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inertiajs/inertia-laravel/zipball/cb1a80fde6cfbd59be14e9cc6c086f5ef08c3ec8",
-                "reference": "cb1a80fde6cfbd59be14e9cc6c086f5ef08c3ec8",
+                "url": "https://api.github.com/repos/inertiajs/inertia-laravel/zipball/9d3f9060c1614565eb4d3a3208015ed01de347bb",
+                "reference": "9d3f9060c1614565eb4d3a3208015ed01de347bb",
                 "shasum": ""
             },
             "require": {
@@ -1441,10 +1441,10 @@
             ],
             "support": {
                 "issues": "https://github.com/inertiajs/inertia-laravel/issues",
-                "source": "https://github.com/inertiajs/inertia-laravel/tree/v3.6.0"
+                "source": "https://github.com/inertiajs/inertia-laravel/tree/v3.7.0"
             },
-            "time": "2026-10-30T12:58:39+00:00",
-            "published-time": "2026-10-30T21:44:42+00:00"
+            "time": "2026-11-02T10:29:10+00:00",
+            "published-time": "2026-11-02T10:45:07+00:00"
         },
         {
             "name": "intervention/gif",
@@ -1721,16 +1721,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v13.39.0",
+            "version": "v13.40.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d52c3b3129e4c8e213c97cdc68f94b0b7d27f181"
+                "reference": "1449bf241017087fbd38c118ecaabef3f6797fdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d52c3b3129e4c8e213c97cdc68f94b0b7d27f181",
-                "reference": "d52c3b3129e4c8e213c97cdc68f94b0b7d27f181",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/1449bf241017087fbd38c118ecaabef3f6797fdc",
+                "reference": "1449bf241017087fbd38c118ecaabef3f6797fdc",
                 "shasum": ""
             },
             "require": {
@@ -1948,8 +1948,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-10-27T14:04:39+00:00",
-            "published-time": "2026-10-27T14:05:37+00:00"
+            "time": "2026-11-03T15:07:18+00:00",
+            "published-time": "2026-11-03T15:08:36+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -5581,16 +5581,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v6.39.0",
+            "version": "v6.40.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "f7387af456f4a7ad5493cd613a52e020446d8654"
+                "reference": "34dd84d35d9aaaeb86c22d7a4416e833f56c5bf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/f7387af456f4a7ad5493cd613a52e020446d8654",
-                "reference": "f7387af456f4a7ad5493cd613a52e020446d8654",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/34dd84d35d9aaaeb86c22d7a4416e833f56c5bf6",
+                "reference": "34dd84d35d9aaaeb86c22d7a4416e833f56c5bf6",
                 "shasum": ""
             },
             "require": {
@@ -5689,7 +5689,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v6.39.0"
+                "source": "https://github.com/statamic/cms/tree/v6.40.0"
             },
             "funding": [
                 {
@@ -5697,8 +5697,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-29T18:40:35+00:00",
-            "published-time": "2026-10-29T18:40:44+00:00"
+            "time": "2026-11-03T15:49:12+00:00",
+            "published-time": "2026-11-03T15:49:21+00:00"
         },
         {
             "name": "statamic/seo-pro",
@@ -6125,7 +6125,7 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.7.1",
+            "version": "v3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
@@ -6172,7 +6172,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.7.1"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.8.0"
             },
             "funding": [
                 {
@@ -6193,7 +6193,7 @@
                 }
             ],
             "time": "2026-06-05T06:23:12+00:00",
-            "published-time": "2026-06-27T21:46:34+00:00"
+            "published-time": "2026-11-04T08:53:06+00:00"
         },
         {
             "name": "symfony/error-handler",
@@ -6366,7 +6366,7 @@
         },
         {
             "name": "symfony/event-dispatcher-contracts",
-            "version": "v3.7.1",
+            "version": "v3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher-contracts.git",
@@ -6422,7 +6422,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.7.1"
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.8.0"
             },
             "funding": [
                 {
@@ -6443,7 +6443,7 @@
                 }
             ],
             "time": "2026-06-05T06:23:12+00:00",
-            "published-time": "2026-06-27T21:46:35+00:00"
+            "published-time": "2026-11-04T08:53:02+00:00"
         },
         {
             "name": "symfony/finder",
@@ -8468,7 +8468,7 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v3.7.3",
+            "version": "v3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
@@ -8531,7 +8531,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v3.7.3"
+                "source": "https://github.com/symfony/service-contracts/tree/v3.8.0"
             },
             "funding": [
                 {
@@ -8552,7 +8552,7 @@
                 }
             ],
             "time": "2026-07-27T15:39:01+00:00",
-            "published-time": "2026-08-30T19:56:37+00:00"
+            "published-time": "2026-11-04T08:53:04+00:00"
         },
         {
             "name": "symfony/string",
@@ -8741,7 +8741,7 @@
         },
         {
             "name": "symfony/translation-contracts",
-            "version": "v3.7.1",
+            "version": "v3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation-contracts.git",
@@ -8799,7 +8799,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/translation-contracts/tree/v3.7.1"
+                "source": "https://github.com/symfony/translation-contracts/tree/v3.8.0"
             },
             "funding": [
                 {
@@ -8820,7 +8820,7 @@
                 }
             ],
             "time": "2026-06-05T06:23:12+00:00",
-            "published-time": "2026-06-27T21:46:40+00:00"
+            "published-time": "2026-11-04T08:53:03+00:00"
         },
         {
             "name": "symfony/type-info",
@@ -9741,16 +9741,16 @@
         },
         {
             "name": "web-auth/webauthn-lib",
-            "version": "5.3.10",
+            "version": "5.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-auth/webauthn-lib.git",
-                "reference": "894f6be8c8a47354a4dfd134a5979246e26d8639"
+                "reference": "c7aeeb1d35e39b7d32ab5146cce4b668f271a68e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-auth/webauthn-lib/zipball/894f6be8c8a47354a4dfd134a5979246e26d8639",
-                "reference": "894f6be8c8a47354a4dfd134a5979246e26d8639",
+                "url": "https://api.github.com/repos/web-auth/webauthn-lib/zipball/c7aeeb1d35e39b7d32ab5146cce4b668f271a68e",
+                "reference": "c7aeeb1d35e39b7d32ab5146cce4b668f271a68e",
                 "shasum": ""
             },
             "require": {
@@ -9811,7 +9811,7 @@
                 "webauthn"
             ],
             "support": {
-                "source": "https://github.com/web-auth/webauthn-lib/tree/5.3.10"
+                "source": "https://github.com/web-auth/webauthn-lib/tree/5.3.12"
             },
             "funding": [
                 {
@@ -9823,8 +9823,8 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2026-10-31T12:44:21+00:00",
-            "published-time": "2026-10-31T14:07:02+00:00"
+            "time": "2026-11-03T09:21:08+00:00",
+            "published-time": "2026-11-03T09:27:24+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -10090,16 +10090,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.18.7",
+            "version": "2.19.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "50670ba239926c50f2073e868f6672f775cd57ec"
+                "reference": "84e33631273138ac103d045dc02b0fb7e5485582"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/50670ba239926c50f2073e868f6672f775cd57ec",
-                "reference": "50670ba239926c50f2073e868f6672f775cd57ec",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/84e33631273138ac103d045dc02b0fb7e5485582",
+                "reference": "84e33631273138ac103d045dc02b0fb7e5485582",
                 "shasum": ""
             },
             "require": {
@@ -10149,7 +10149,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.18.7"
+                "source": "https://github.com/filp/whoops/tree/2.19.2"
             },
             "funding": [
                 {
@@ -10157,8 +10157,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-18T13:17:38+00:00",
-            "published-time": "2026-10-18T13:33:07+00:00"
+            "time": "2026-11-03T23:38:01+00:00",
+            "published-time": "2026-11-03T23:39:05+00:00"
         },
         {
             "name": "fruitcake/laravel-debugbar",
@@ -11279,16 +11279,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "12.5.42",
+            "version": "12.5.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1d6dbe748c079e5d2b03bca1be69d0f4cc52a578"
+                "reference": "1d5a4a3c98fa1ca3a51402c74b66c2c8df85e0bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1d6dbe748c079e5d2b03bca1be69d0f4cc52a578",
-                "reference": "1d6dbe748c079e5d2b03bca1be69d0f4cc52a578",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1d5a4a3c98fa1ca3a51402c74b66c2c8df85e0bb",
+                "reference": "1d5a4a3c98fa1ca3a51402c74b66c2c8df85e0bb",
                 "shasum": ""
             },
             "require": {
@@ -11357,7 +11357,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.42"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.43"
             },
             "funding": [
                 {
@@ -11365,8 +11365,8 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-10-27T04:15:03+00:00",
-            "published-time": "2026-10-27T04:18:06+00:00"
+            "time": "2026-11-02T07:10:00+00:00",
+            "published-time": "2026-11-02T07:10:59+00:00"
         },
         {
             "name": "sebastian/cli-parser",
